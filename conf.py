@@ -12,7 +12,7 @@ settings_file_name = 'Piano-Triennale'
 
 import sys
 import os
-docs_italia_theme = __import__("docs-italia-theme")
+import docs_italia_theme
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
